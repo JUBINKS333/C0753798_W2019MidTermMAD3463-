@@ -1,6 +1,6 @@
 package com.lambton.magicalcardgame;
 
-public class MagicalCardGameCalculator {
+public class MagicalCardGameCalculator implements MagicalCardGameModelInterface  {
     public String[][] getFirstShuffleResult(MagicalCardGameModel magicalCardGameModel) {
         return String[][];
     }
